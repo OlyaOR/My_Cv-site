@@ -1,0 +1,34 @@
+.contacts {
+    position: relative;
+    color: #54687a;
+    height: 100%;
+    margin: 20px 80px;
+    h2 {
+        font-family: 'Zen Loop';
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 2px 2px 2px #84b6bd;
+    }
+    &_block {
+        display: flex;
+        justify-content: space-between;
+
+        box-shadow: 2px 2px 3px 2px #c56f82;
+        &__main{
+            padding: 20px;
+            list-style-type: none;
+        }
+        &__social-network {
+            list-style-type: none;
+            padding: 20px;
+        }
+    }
+    a {
+        color: #54687a;
+        text-decoration: none;
+        &:hover {
+            text-shadow: 2px 2px 1px #84b6bd;
+        }
+    }
+    
+}

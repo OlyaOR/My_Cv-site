@@ -1,0 +1,39 @@
+.moreinfo {
+    position: relative;
+    color: #54687a;
+    height: 100%;
+    margin: 30px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 215px);
+    gap: 20px;
+    place-items: center center;
+    h2 {
+        font-family: 'Zen Loop';
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 2px 2px 2px #84b6bd;
+    }
+    &_item {
+        text-align: center;
+        box-shadow: 2px 2px 3px 1px #c56f82;
+        border-radius: 15px;
+        img {
+            width: 100%;
+            overflow: hidden;
+            height: 180px;
+            object-fit: cover;
+            &:hover {
+                cursor: pointer;
+            }
+            &:active {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                box-shadow: 2px 2px 3px 1px #c56f82;
+                border-radius: 15px;
+            }
+        }
+    }
+}

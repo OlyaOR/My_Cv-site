@@ -1,0 +1,48 @@
+.education {
+    position: relative;
+    color: #54687a;
+    height: 100%;
+    h2 {
+        font-family: 'Zen Loop';
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 2px 2px 2px #84b6bd;
+    }
+    h3 {
+        font-family: 'Zen Loop';
+        font-size: 25px;
+        color: #84b6bd;
+        text-shadow: 1px 1px 1px #54687a;
+        text-align: center;
+        margin: 10px;
+    }
+    &_items {
+        display: flex;
+        justify-content: space-between;
+        ul {
+            padding: 0;
+        }
+    }
+    &_item {
+        width: 265px;
+        padding: 10px;
+        padding-top: 0;
+        &__img {
+            width: 100px;
+            margin: 10px;
+            box-shadow: 2px 3px 2px #c56f82;
+            &:hover {
+                position: absolute;
+                top: -100px;
+                left: 50%;
+                transform: translateX(-37%);
+                width: 600px;
+                z-index: 2;
+            }
+        }
+        li {
+            list-style-type: none;
+        }
+    }
+}
+

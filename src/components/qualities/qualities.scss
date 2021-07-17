@@ -1,0 +1,39 @@
+.qualities {
+    position: relative;
+    color: #54687a;
+    height: 100%;
+    margin: 0 30px;
+    h2 {
+        font-family: 'Zen Loop';
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 2px 2px 2px #84b6bd;
+    }
+    &_text {
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+    &_items {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        list-style-type: none;
+        text-align: center;
+        padding: 10px;
+        img {
+            width: 50px;
+            border-radius: 100%;
+            box-shadow: 2px 2px 2px 1px #c56f82;
+            padding: 3px;
+            margin-bottom: 10px;
+        }
+    }
+    &_item {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
