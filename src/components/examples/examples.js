@@ -5,6 +5,7 @@ import './examples.scss';
 export default function Examples() {
     return (
       <section className='examples'>
+        <div id='examples'></div>
         <h2>Examples of my work</h2>
         <div className="examples_info">
             <p className='examples_info__text'>By clicking on the links you can see the final result of my projects. Some of them were made during training, the other was done independently. You can see code repositories of these projects at the link: <a href="https://github.com/OlyaOR" target="blank">My GitHub</a></p>

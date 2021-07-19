@@ -17,6 +17,7 @@ export default function MoreInfo() {
     };
     return (
         <section className='moreinfo' onClick={active}>
+        <div id="moreaboutme"></div>
         <h2>More information about me</h2>
         <div className='moreinfo_item'>
             <img src={journey} alt="img" className='moreinfo_img'/>

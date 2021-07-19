@@ -10,7 +10,8 @@ import teamplayer from './img/teamplayer.png';
 
 export default function Qualities() {
     return (
-      <section className='qualities'>
+      <section className='qualities' >
+        <div id="qualities"></div>
         <h2>Personal qualities</h2>
         <p className='qualities_text'>I'm diligent, hardworking, result oriented person. I’m effective communicator and team player. I always keep focus on meeting deadlines.</p>
         <ul className='qualities_items'>

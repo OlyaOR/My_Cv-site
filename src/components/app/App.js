@@ -11,10 +11,10 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   margin: 0 auto;
-  padding: 110px 0px 70px;
+  padding: 90px 0px 60px;
   width: 800px;
   border: solid 2px #54687a;
-  background: #f1e4e4;
+  background: #f0e5e7;
   height: 100%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.4), 0 10px 10px rgba(0,0,0,0.2);
 `;

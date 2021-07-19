@@ -4,6 +4,7 @@ import './contacts.scss';
 export default function Contacts() {
     return (
       <section className='contacts'>
+        <div id="contacts"></div>
         <h2>Contacts</h2>
         <div className='contacts_block'>
             <ul className='contacts_block__main'l>

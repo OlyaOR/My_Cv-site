@@ -5,7 +5,8 @@ import jsreact from './img/jsreact.png';
 
 export default function Education() {
     return (
-      <section className='education'>
+      <section className='education' >
+        <div id="education"></div>
         <h2>Education</h2>
         <div className="education_items">
                 <div className="education_item">

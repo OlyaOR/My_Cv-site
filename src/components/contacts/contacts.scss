@@ -12,7 +12,7 @@
     &_block {
         display: flex;
         justify-content: space-between;
-        font-size: 19px;
+        font-size: 18px;
         box-shadow: -2px -2px 2px 2px #84b6bd, 2px 2px 2px 2px #c56f82;
         &__main{
             padding: 20px;
@@ -30,5 +30,8 @@
             text-shadow: 1px 1px 1px #84b6bd;
         }
     }
-    
+}
+#contacts {
+    position: absolute;
+    top: -80px;
 }
