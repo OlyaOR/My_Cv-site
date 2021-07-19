@@ -1,3 +1,4 @@
+import React from 'react';
 import './qualities.scss';
 import communicative from './img/communicative.png';
 import friendly from './img/friendly.png';

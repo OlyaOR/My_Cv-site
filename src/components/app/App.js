@@ -1,3 +1,4 @@
+import React from 'react';
 import Menu from '../menu/menu';
 import AboutMe from '../aboutme/aboutme';
 import Contacts from '../contacts/contacts';
@@ -12,7 +13,6 @@ const Container = styled.div`
   margin: 0 auto;
   padding: 110px 0px 70px;
   width: 800px;
-  position: relative;
   border: solid 2px #54687a;
   background: #f1e4e4;
   height: 100%;

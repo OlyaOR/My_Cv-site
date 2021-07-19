@@ -9,18 +9,17 @@
     left: 50%;
     transform: translateX(-50%);
     border-radius: 30%;
-    color: #fff;
     font-size: 25px;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     font-family: 'Zen Loop';
-    box-shadow: 0px 4px 0px #c56f82;
+    box-shadow: 0px 3px 0px #c56f82;
     &_item {
         color: #fff;
         text-decoration: none;
         &:hover {
-            text-shadow: 2px 2px 3px #c56f82;
+            text-shadow: 2px 2px 1px #c56f82;
         }
     }
 }

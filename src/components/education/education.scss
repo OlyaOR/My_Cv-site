@@ -30,7 +30,7 @@
         &__img {
             width: 100px;
             margin: 10px;
-            box-shadow: 2px 3px 2px #c56f82;
+            box-shadow:-2px -2px 2px #84b6bd, 2px 2px 2px #c56f82;
             &:hover {
                 position: absolute;
                 top: -100px;

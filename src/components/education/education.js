@@ -1,3 +1,4 @@
+import React from 'react';
 import './education.scss';
 import webdev from './img/webdev.png';
 import jsreact from './img/jsreact.png';
