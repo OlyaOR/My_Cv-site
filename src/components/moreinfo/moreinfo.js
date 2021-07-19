@@ -29,15 +29,15 @@ export default function MoreInfo() {
         </div>
         <div className='moreinfo_item'>
             <img src={bicycle} alt="img" className='moreinfo_img'/>
-            <div className='moreinfo_item__text'>In Summer I prefer cycling</div>
+            <div className='moreinfo_item__text'>In Summer I prefer cycling &#128692;</div>
         </div>
         <div className='moreinfo_item'>
             <img src={toski} alt="img" className='moreinfo_img'/>
-            <div className='moreinfo_item__text'>And in Winter I prefer skiing</div>
+            <div className='moreinfo_item__text'>And in Winter I prefer skiing &#9975;</div>
         </div>
         <div className='moreinfo_item'>
             <img src={food} alt="img" className='moreinfo_img'/>
-            <div className='moreinfo_item__text'>I also like to cook</div>
+            <div className='moreinfo_item__text'>I also like to cook &#127869;</div>
         </div>
         <div className='moreinfo_item'>
             <img src={focused} alt="img" className='moreinfo_img'/>
