@@ -19,6 +19,7 @@ export default function Examples() {
                 <li><a href="https://resto-app-react-redux.netlify.app/" target="blank">RestoApp</a></li>
                 <li><a href="https://searchword.netlify.app/" target="blank">Search Word</a></li>
                 <li><a href="https://taskfromspurit-digestion.netlify.app/" target="blank">Digestion</a></li>
+                <li><a href="https://exp.host/@olga_or/Quadrojoy" target="blank">Quadrojoy</a></li>
             </ul>
         </div>
      </section>
