@@ -15,7 +15,7 @@ export default function Education() {
                     Specialization - accounting, analysis and audit. <br />
                     Specialty - economist.
                     <h3>Level of English</h3>
-                    I learned English in school and university and have been studying English with a tutor for more than year now. <br />
+                    I learned English in school and university and have been studying English with a tutor since June 2020. <br />
                     Level: A2-B1 (Pre-Intermediate)
                 </div>
                 <div className="education_item">

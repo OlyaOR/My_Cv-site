@@ -12,7 +12,7 @@ export default function Contacts() {
                 <li>Phone: <a href="tel:+375292735778">+(375)29-273-57-78</a></li>
                 <li>Telegram: <a href="https://t.me/olya_or">t.me/olya_or</a></li>
                 <li>Email: <a href="mailto:olga.rozhkova.og94@gmail.com">olga.gavrilova.og94@gmail.com</a></li>
-                <li>My CV Rabota.by: <a href="https://rabota.by/resume/a315511aff08ea1d1b0039ed1f336f52516a53" target="blank">rabota.by/resume/..</a> </li>
+                {/*<li>My CV Rabota.by: <a href="https://rabota.by/resume/a315511aff08ea1d1b0039ed1f336f52516a53" target="blank">rabota.by/resume/..</a> </li>*/}
             </ul>
             <ul className='contacts_block__social-network'>
                 <li>Github: <a href="https://github.com/OlyaOR" target="blank">github.com/OlyaOR</a></li>

@@ -2,7 +2,7 @@
     position: relative;
     color: #54687a;
     height: 100%;
-    margin: 0 60px;
+    margin: 30px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,6 +11,7 @@
         font-size: 50px;
         text-align: center;
         text-shadow: 2px 2px 2px #84b6bd;
+        margin-left: 50px;
     }
     &_text {
         width: 520px;

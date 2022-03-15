@@ -7,12 +7,13 @@ import Qualities from '../qualities/qualities';
 import Skills from '../skills/skills';
 import Examples from '../examples/examples';
 import MoreInfo from '../moreinfo/moreinfo';
+import Experience from '../experience/experience';
 import styled from 'styled-components';
 
 const Container = styled.div`
   margin: 0 auto;
   padding: 90px 0px 60px;
-  width: 800px;
+  width: 900px;
   border: solid 2px #54687a;
   background: #f0e5e7;
   height: 100%;
@@ -27,6 +28,7 @@ function App() {
       <Education/>
       <Qualities/>
       <Skills/>
+      <Experience/>
       <Examples/>
       <MoreInfo/>
     </Container>

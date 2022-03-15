@@ -1,0 +1,17 @@
+.experience {
+    position: relative;
+    color: #54687a;
+    height: 100%;
+    margin: 0 60px;
+    h2 {
+        font-family: 'Zen Loop';
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 2px 2px 2px #84b6bd;
+        margin-bottom: 10px;
+    }
+}
+#experience {
+    position: absolute;
+    top: -80px;
+}
