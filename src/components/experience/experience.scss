@@ -10,6 +10,14 @@
         text-shadow: 2px 2px 2px #84b6bd;
         margin-bottom: 10px;
     }
+    a {
+        color: #54687a;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #84b6bd;
+        &:hover {
+            text-shadow: 1px 1px 1px #c56f82;
+        }
+    }
 }
 #experience {
     position: absolute;

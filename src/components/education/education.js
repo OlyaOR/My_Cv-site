@@ -11,9 +11,8 @@ export default function Education() {
         <div className="education_items">
                 <div className="education_item">
                     <h3>Higher education</h3>
-                    Belarusian State Economic University. <br />
-                    Specialization - accounting, analysis and audit. <br />
-                    Specialty - economist.
+                    Belarusian State Economic University. Specialty - economist.
+                    Specialization - accounting, analysis and audit. <br/>
                     <h3>Level of English</h3>
                     I learned English in school and university and have been studying English with a tutor since June 2020. <br />
                     Level: A2-B1 (Pre-Intermediate)
