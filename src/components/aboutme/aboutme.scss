@@ -11,10 +11,12 @@
         text-shadow: 2px 2px 2px #84b6bd;
     }
     &_img {
-        width: 270px;
+        width: 290px;
         margin: 15px 15px 0px 60px;
-        border-radius: 10px;
+        border-radius: 50%;
         box-shadow: -3px 3px 5px 1px #54687a;
+        padding: 2px;
+        margin: 40px 60px;
     }
     &_info {
         position: absolute;
