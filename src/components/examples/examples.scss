@@ -1,28 +1,27 @@
 .examples {
     position: relative;
-    color: #54687a;
-    height: 100%;
-    margin: 25px;
+    margin: 15px 30px;
     h2 {
-        font-family: 'Zen Loop';
-        font-size: 50px;
+        font-size: 30px;
+        font-weight: normal;
         text-align: center;
         text-shadow: 2px 2px 2px #84b6bd;
+        margin-top: 30px;
     }
     &_info {
-        margin: 15px 50px 0;
+        margin-top: 20px;
         display: flex;
         justify-content: space-around;
         align-items: center;
         &__items {
-            -moz-column-count: 2; 
-            -webkit-column-count: 2; 
-            column-count: 2;
-            width: 290px;
-            font-size: 18px;
+            -moz-column-count: 3;
+            -webkit-column-count: 3;
+            column-count: 3;
+            width: 380px;
             line-height: 1.5;
             padding: 10px 0 10px 30px;
-            box-shadow:-2px -2px 2px 1px #84b6bd, 2px 2px 2px 1px #c56f82;
+            box-shadow:-2px -2px 2px 1px #84b6bd, 2px 2px 2px 1px #54687a;
+            font-size: 16px;
             a {
                 color: #54687a;
                 text-decoration: none;
@@ -32,13 +31,13 @@
             }
         }
         &__text {
-            width: 300px;
+            width: 340px;
             a {
                 color: #54687a;
                 text-decoration: none;
-                text-shadow: 1px 1px 1px #c56f82;
+                text-shadow: 1px 1px 1px #84b6bd;
                 &:hover {
-                    text-shadow: 1px 1px 1px #84b6bd;
+                    color: #84b6bd;
                 }
             }
         }
@@ -47,4 +46,5 @@
 #examples {
     position: absolute;
     top: -80px;
+    opacity: 1;
 }

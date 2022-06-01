@@ -2,24 +2,28 @@
     position: relative;
     color: #54687a;
     height: 100%;
-    margin: 35px 100px;
+    margin: 35px 70px;
     display: grid;
-    grid-template-columns: repeat(3, 215px);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     place-items: center center;
     h2 {
-        font-family: 'Zen Loop';
-        font-size: 50px;
+        font-size: 30px;
+        font-weight: normal;
         text-align: center;
         text-shadow: 2px 2px 2px #84b6bd;
+        padding: 0 20px;
     }
     &_item {
         width: 100%;
         text-align: center;
-        box-shadow: 2px 2px 2px 1px #84b6bd;
+        box-shadow: 0 3px 3px 1px #54687a;
         border-radius: 10px;
-        padding-bottom: 5px;
         height: 230px;
+        font-size: 15px;
+        &__text {
+            padding: 5px;
+        }
     }
     &_img {
         width: 100%;
@@ -28,6 +32,12 @@
         object-fit: cover;
         &:hover {
             cursor: pointer;
+            &::after {
+                content: 'mbzdfjhgkvsjdhfg';
+                background-color: darkred;
+                position: absolute;
+                z-index: 10;
+            }
         }
         &__active {
             position: absolute;
@@ -35,7 +45,7 @@
             height: 100%;
             top: 0;
             left: 0;
-            box-shadow: 2px 2px 2px 1px #84b6bd;
+            box-shadow: 0 4px 4px 4px #54687a;
             border-radius: 10px;
         }
     }

@@ -1,22 +1,42 @@
 .experience {
     position: relative;
-    color: #54687a;
-    height: 100%;
-    margin: 0 60px;
+    margin: 15px 30px;
     h2 {
-        font-family: 'Zen Loop';
-        font-size: 50px;
+        font-size: 30px;
+        font-weight: normal;
         text-align: center;
         text-shadow: 2px 2px 2px #84b6bd;
-        margin-bottom: 10px;
     }
-    a {
-        color: #54687a;
-        text-decoration: none;
-        text-shadow: 1px 1px 1px #84b6bd;
-        &:hover {
-            text-shadow: 1px 1px 1px #c56f82;
+    &_items {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 1.7;
+        &_first {
+            width: 330px;
+            padding: 10px;
+            box-shadow:-2px -2px 2px 1px #84b6bd, 2px 2px 2px 1px #54687a;
+            .s7logo {
+                position: relative;
+                top: 8px;
+                width: 78px;
+                height: 25px;
+            }
         }
+        &_second {
+            width: 480px;
+            line-height: 1.5;
+            span {
+                font-size: 18px;
+                color: #84b6bd;
+                text-shadow: 1px 1px 1px #54687a;
+            }
+            ul {
+               padding: 0 0 0 15px;
+            }
+        }
+
     }
 }
 #experience {

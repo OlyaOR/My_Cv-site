@@ -1,29 +1,37 @@
 .aboutme {
     position: relative;
-    color: #54687a;
     height: 100%;
     h1 {
         position: absolute;
-        font-family: 'Zen Loop';
-        font-size: 60px;
+        font-size: 30px;
+        font-weight: normal;
         left: 50%;
         transform: translateX(-40px);
         text-shadow: 2px 2px 2px #84b6bd;
     }
     &_img {
         width: 290px;
-        margin: 15px 15px 0px 60px;
         border-radius: 50%;
         box-shadow: -3px 3px 5px 1px #54687a;
         padding: 2px;
-        margin: 40px 60px;
+        margin: 50px 60px 20px;
     }
     &_info {
         position: absolute;
         right: 50px;
-        top: 73px;
+        top: 53px;
         width: 450px;
         padding: 0 15px;
+        font-size: 15.8px;
+        a {
+            color: #54687a;
+            text-decoration: none;
+            text-shadow: 1px 1px 1px #84b6bd;
+            &:hover {
+                color: #84b6bd;
+                text-shadow: 1px 1px 1px #54687a;
+            }
+        }
     }
 }
 #aboutme {

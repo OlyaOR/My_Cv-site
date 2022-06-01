@@ -23,7 +23,6 @@ export default function Qualities() {
             <li className='qualities_item'><img src={takingresponsibility} alt="takingresponsibility" />Taking responsibility</li>
             <li className='qualities_item'><img src={teamplayer} alt="teamplayer" />Team player</li>
         </ul>
-        <div className='qualities_other'><span>Other languages:</span> Russian, Belarusian - Native; Polish - Beginner; Ukrainian - Advanced;</div>
       </section>
     );
 }

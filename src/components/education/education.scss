@@ -1,16 +1,15 @@
 .education {
     position: relative;
-    color: #54687a;
-    height: 100%;
+    margin: 15px 30px;
     h2 {
-        font-family: 'Zen Loop';
-        font-size: 50px;
+        font-size: 30px;
+        font-weight: normal;
         text-align: center;
         text-shadow: 2px 2px 2px #84b6bd;
     }
-    h3 {
-        font-family: 'Zen Loop';
-        font-size: 25px;
+    h3, h4 {
+        font-size: 20px;
+        font-weight: normal;
         color: #84b6bd;
         text-shadow: 1px 1px 1px #54687a;
         text-align: center;
@@ -19,33 +18,88 @@
     &_items {
         display: flex;
         justify-content: space-around;
-        ul {
-            padding: 0;
-        }
+        margin-top: 10px;
+        align-items: center;
     }
     &_item {
-        width: 265px;
-        padding: 10px;
-        padding-top: 0;
+        width: 260px;
+        padding: 0 10px 10px;
+        position: relative;
+        div:hover::after {
+            content: ' ';
+            background: rgba(84, 104, 122, 0.5) url("img/zoom-in.png") center no-repeat;
+            background-size: 30px;
+            position: absolute;
+            z-index: 5;
+            left: 33px;
+            width: 184px;
+            height: 147px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
         &__img {
-            width: 100px;
-            margin: 10px;
-            box-shadow:-2px -2px 2px #84b6bd, 2px 2px 2px #c56f82;
-            &:hover {
-                position: absolute;
-                top: -100px;
-                left: 50%;
-                transform: translateX(-37%);
-                width: 600px;
-                z-index: 2;
+            width: 170px;
+            margin: 10px 0 10px 30px;
+            box-shadow:-2px -2px 2px #84b6bd, 2px 2px 2px #54687a;
+            &:hover  {
+                cursor: pointer;
+                background-color: rgba(255, 200, 255, 0.3);
             }
         }
-        li {
-            list-style-type: none;
+        ul {
+            margin-top: 7px;
+            color: #84b6bd;
+            text-shadow: 1px 1px 1px #54687a;
+            font-size: 18px;
+            padding-left: 15px;
+            li {
+                font-size: 16px;
+                color: #54687a;
+                text-shadow: none;
+                margin: 7px 0;
+            }
+            a {
+                color: #54687a;
+                text-shadow: 1px 1px 1px #84b6bd;
+                text-decoration: none;
+                &:hover {
+                    color: #84b6bd;
+                    text-shadow: 1px 1px 1px #54687a;
+                }
+            }
         }
     }
+    .certificate {
+        background-color: rgba(84, 104, 122, 0.7);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 7;
+        img {
+            display: block;
+            margin: 130px auto;
+            width: 700px;
+            box-shadow: 0 4px 4px 4px #54687a;
+        }
+        img.closeButton {
+            position: fixed;
+            top: -10px;
+            left: calc(50% + 350px);
+            transform: translateX(-50%);
+            width: 30px;
+            height: 30px;
+            z-index: 7;
+            box-shadow: none;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
 }
 #education {
     position: absolute;
-    top: -75px;
+    top: -80px;
 }
