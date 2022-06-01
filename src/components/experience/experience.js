@@ -10,22 +10,25 @@ export default function Experience() {
           <div className='experience_items'>
               <p className='experience_items_first'>
                   Almost a year now I have been working as a Frontend developer at Resliv. Our company develops and supports products for <a href="https://www.s7.ru/ru/" target="blank"><img src={S7} alt="S7Logo" className='s7logo'/></a>.
-                  I support and improvement a frontend part for administrative web application for the marketing department.
+                  I support and improve a frontend part for administrative web application for the marketing department.
               </p>
               <p className='experience_items_second'>
                   <span>My responsibilities include:</span> <br/>
                   <ul>
                       <li>
-                          cross-browser and adaptive layout;
+                          Development of cross-browser and adaptive layout;
                       </li>
                       <li>
-                          adding functionality and styles for components;
+                          Implementation of frontend logic and styles for components;
                       </li>
                       <li>
-                          refactoring code, fixing bugs, doing code review and working with the design system;
+                          Code refactoring, troubleshooting and bug fixing, code review;
                       </li>
                       <li>
-                          communication with other members of team: qa engineers, frontend and backend developers, team lead, designers and analysts.
+                          Working with the design system;
+                      </li>
+                      <li>
+                          Collaboration with Team Lead, Designers, Business Analysts, Frontend and Backend developers, QA specialists.
                       </li>
                   </ul>
               </p>

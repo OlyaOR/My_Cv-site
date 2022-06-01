@@ -8,7 +8,7 @@ export default function Examples() {
         <div id='examples'></div>
         <h2>Examples of my work</h2>
         <div className="examples_info">
-            <p className='examples_info__text'>By clicking on the links you can see the final result of my projects. Some of them were made during training, the other was done independently. But all of them were made in order to get experience and training skills and knowledge. You can see code repositories of these projects at the link: <a href="https://github.com/OlyaOR" target="blank">My GitHub.</a> Here you can also see the code of this site and my other works.</p>
+            <p className='examples_info__text'>By clicking on the links you can see the final result of my projects. Some of them were made during training, the other was done independently. All of them were made in order to get experience, to train development skills and to improve my knowledge. You can see code repositories of these projects and code of this site here: <a href="https://github.com/OlyaOR" target="blank">My GitHub.</a> </p>
             <ul className='examples_info__items'>
                 <li><a href="https://olyaor.github.io/wordpress/" target="blank">Wordpress</a></li>
                 <li><a href="https://olyaor.github.io/Uber/" target="blank">Uber</a></li>

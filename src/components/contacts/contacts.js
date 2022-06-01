@@ -8,8 +8,8 @@ export default function Contacts() {
         <h2>Contacts</h2>
         <div className='contacts_block'>
             <ul className='contacts_block__main'>
-                <li><span>Location:</span> Republic of Belarus. Minsk.</li>
-                <li><span>Location since summer 2022:</span> Republic of Poland, Gdańsk.</li>
+                <li><span>Permanent Residence:</span> Republic of Belarus - Minsk.</li>
+                <li><span>Temporary Residence:</span> Republic of Poland - Gdańsk.</li>
                 <li><span>Phone:</span> <a href="tel:+375292735778">+375292735778</a> (Belarus)</li>
                 <li><span>Phone:</span> <a href="tel:+48571050445">+48571050445</a> (Poland)</li>
                 <li><span>Email:</span> <a href="mailto:olga.rozhkova.og94@gmail.com">olga.gavrilova.og94@gmail.com</a></li>
