@@ -22,6 +22,7 @@ export default function Examples() {
                 <li><a href="https://exp.host/@olga_or/Quadrojoy" target="blank">Quadrojoy</a></li>
                 <li><a href="https://tasks-for-interview-resliv.netlify.app/" target="blank">Tasks for Interview</a></li>
                 <li><a href="https://task6-for-interview.netlify.app/" target="blank">Sixth Task</a></li>
+                <li><a href="https://task-from-zupa.netlify.app" target="blank">Zupa Task</a></li>
             </ul>
         </div>
      </section>

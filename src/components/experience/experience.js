@@ -9,7 +9,7 @@ export default function Experience() {
         <h2>Work experience</h2>
           <div className='experience_items'>
               <p className='experience_items_first'>
-                  Almost a year now I have been working as a Frontend developer at Resliv. Our company develops and supports products for <a href="https://www.s7.ru/ru/" target="blank"><img src={S7} alt="S7Logo" className='s7logo'/></a>.
+                  A one year now I have been working as a Frontend developer at Resliv. Our company develops and supports products for <a href="https://www.s7.ru/ru/" target="blank"><img src={S7} alt="S7Logo" className='s7logo'/></a>.
                   I support and improve a frontend part for administrative web application for the marketing department.
               </p>
               <p className='experience_items_second'>
