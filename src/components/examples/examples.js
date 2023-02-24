@@ -25,6 +25,7 @@ export default function Examples() {
                 <li><a href="https://task-from-zupa.netlify.app" target="blank">Zupa Task</a></li>
             </ul>
         </div>
+          <p className='examples_info__additionally'>I also practice by completing tasks on codewars.com You can find my solution of some tasks <a href="https://www.codewars.com/users/OlyaOR" target="blank">here</a>.</p>
      </section>
     );
 }

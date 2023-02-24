@@ -30,7 +30,7 @@
                 }
             }
         }
-        &__text {
+        &__text, &__additionally {
             width: 340px;
             a {
                 color: #54687a;
@@ -40,6 +40,10 @@
                     color: #84b6bd;
                 }
             }
+        }
+        &__additionally {
+            margin: 20px auto;
+            width: fit-content;
         }
     }
 }
